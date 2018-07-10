@@ -1,0 +1,105 @@
+@media(min-width: 535px) and (max-width: 824px){ /*// se define minimo de ancho de pantalla y maximo de ancho de pantalla */
+[class*='col-']{ /*yo quiero que tome todas las col y que se le aplique el estilo del 100% del ancho del contenido que estan en ellas*/
+		width: 100%;
+		
+   }
+
+   .menu{
+    display: none;
+   }
+   .menu-2{
+    display: inline-block;
+    padding: 0%;
+    margin:0%;
+   }
+.inicio{
+  width: 50%;
+}
+.fa-bars:hover{
+  color:#74ff0c;
+
+}
+.icono{
+  text-align: right;
+  width: 50%; 
+
+}
+.TitlePrincipal{
+  position: absolute;
+  color:#274e0a;
+  font-family: 'Kurale', serif;
+  text-align: center;
+  font-size: 200%;
+  padding-top: 10%;
+  padding-left: 50%;
+  opacity: 0.9;
+  z-index: 2
+
+}
+.tarjetas{
+  margin-left: 3%;
+  padding: 2%;
+
+
+
+}
+ 
+ }
+
+
+
+@media (max-width: 534px) {
+	[class*='col-']{
+		width: 100%;
+	}
+  .fa{
+    font-size: 200%;
+  }
+  .logo{
+    width: 50%;
+  }
+	.menu{
+    display: none;
+  }
+  .menu-2{
+    display: inline-block;
+    padding: 0%;
+    margin:0%;
+   }
+
+.inicio{
+  width: 50%;
+  margin-top: 6%;
+}
+
+.fa-bars:hover{
+  color:#43d313;
+}
+.icono{
+  text-align: right;
+  width: 50%; 
+
+}
+.TitlePrincipal{
+  color:#0d1b02;
+  font-family: 'Kurale', serif;
+  text-align: center;
+  font-size: 180%;
+  padding-top: 10%;
+  padding-left: 55%;
+  
+}
+.tarjetas{
+  margin-left: 1%;
+}
+.tarjeta{
+width: 90%;
+}
+.email{
+font-size: 90%;
+   }
+.foot{
+  width: 30%;
+
+	}
+}
